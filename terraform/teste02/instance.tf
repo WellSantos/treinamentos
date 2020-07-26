@@ -10,6 +10,6 @@ resource "google_compute_instance" "teste02" {
     }
 
     network_interface {
-        network = "default"
+        network = "teste02"
     }
 }

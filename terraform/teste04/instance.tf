@@ -1,13 +1,3 @@
-variable "instance_type" {
-    type    = string
-    default = "n1-standard-1"
-}
-
-variable "instance_zone" {
-    type    = string
-    default = "asia-east1-a"
-}
-
 resource "google_compute_instance" "teste04" {
     name            = "instance"
     machine_type    = var.instance_type
